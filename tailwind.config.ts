@@ -15,5 +15,12 @@ const config: Config = {
     },
   },
   plugins: [],
+  "paths": {
+    "@/*": ["./src/*"],
+    "@components/*": ["./src/components/*"],
+    "@app/*": ["./src/app/*"],
+    "@hooks/*": ["./src/hooks/*"],
+    "@utilities/*": ["./src/utilities/*"],
+  }
 };
 export default config;
