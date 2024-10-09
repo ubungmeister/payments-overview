@@ -22,7 +22,7 @@ export const InputField = ({
         className=" input-container "
         type="number"
         min={0}
-        placeholder="Min amount"
+        placeholder="Type amount"
         value={filter[amountName] || ""}
         onChange={(e) => {
           setFilter({
